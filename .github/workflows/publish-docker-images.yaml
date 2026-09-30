@@ -18,7 +18,7 @@ jobs:
     name: Publish copilot_proxy
     # The `-latest` runner images are the latest **stable** images that GitHub provides.
     # Here it is equivalent to `ubuntu-20.04`.
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
 
     steps:
       - name: Checkout repository
